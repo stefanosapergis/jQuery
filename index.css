@@ -1,0 +1,64 @@
+#container{
+    width: 700px;
+    height: 450px;
+    margin: 70px auto;
+    border: 2px solid rgb(125, 181, 66);
+}
+h2 {
+    color: rgb(125, 181, 66);
+    text-align:center;
+}
+#projects{
+    width: 650px;
+    height: 250px;
+    margin: 0px auto;
+    
+}
+ol li{
+    border: 1px dotted black;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+ol li:hover{
+    background: #6eb7db;
+}
+#main{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-bottom: 20px;
+padding-top: 20px;
+    
+    
+}
+#li1 {
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+   
+}
+#li2{
+    padding-bottom: 20px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+#noe {
+    word-spacing: 30px;
+}

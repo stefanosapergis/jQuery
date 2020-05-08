@@ -1,0 +1,55 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+    <link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+ <script src="js/jquery.js"></script>
+ <script src="jquery/jquery-ui.js"></script>
+ <style>
+   
+ </style>
+ <script>
+    $(document).ready(function(){
+        $("#projects").tabs();
+        $("ul").sortable({axis:"x", containment:"#projects"});
+        $("ol").sortable({axis:"y", containment:"#projects"});
+        
+    });
+ </script>
+ 
+</head>
+
+<body>
+    
+    <div id="container">
+        <h2> To Do List </h2>
+        
+        <div id="projects">
+            <ul id="main">
+             <li id="noe"><a id="li1" href="#personal">Personal</a>      <a id="li2" href="#work">Work</a></li>
+            </ul>
+            <ol id="personal">
+                <li><input type="checkbox">Doctor appointment</li>
+                <li><input type="checkbox">Call the plumber</li>
+                
+            </ol>
+            <ol id="work">
+                <li><input type="checkbox">Complete test case document</li>
+                <li><input type="checkbox">Meet project manager</li>
+                <li><input type="checkbox">Record jQuery video</li>
+
+            </ol>
+
+        </div>
+
+
+
+
+        
+    </div>  
+</body>
+
+
+
+</html>
